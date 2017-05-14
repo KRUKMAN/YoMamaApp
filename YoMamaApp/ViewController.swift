@@ -27,13 +27,27 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    var previousNumber: Int?
+    
+    func generateRandomNumber() -> Int {
+        var randomNumber = Int(arc4random_uniform(UInt32(diss.count)))
+        if previousNumber != nil {
+            while randomNumber == previousNumber! {
+                randomNumber = Int(arc4random_uniform(UInt32(diss.count)))
+            }
+        }
+        previousNumber = randomNumber
+        return randomNumber
+    }
+    
     @IBAction func dissButtonPushed(_ sender: UIButton) {
-        let number = Int(arc4random_uniform(UInt32(diss.count)))
+        let number = generateRandomNumber()
         yoMamaLabel.isHidden = false
         yoMamaLabel.text = "Yo mama \(diss[number])"
     }
     
-        func configureView() {
+    
+    func configureView() {
         yoMamaButton.layer.cornerRadius = 5
         yoMamaButton.backgroundColor = UIColor.white
     }
