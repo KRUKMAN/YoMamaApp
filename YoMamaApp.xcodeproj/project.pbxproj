@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CC232D1EC8FF7300811912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC232C1EC8FF7300811912 /* AppDelegate.swift */; };
+		E1CC232F1EC8FF7300811912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC232E1EC8FF7300811912 /* ViewController.swift */; };
+		E1CC23321EC8FF7300811912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23301EC8FF7300811912 /* Main.storyboard */; };
+		E1CC23341EC8FF7300811912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23331EC8FF7300811912 /* Assets.xcassets */; };
+		E1CC23371EC8FF7300811912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23351EC8FF7300811912 /* LaunchScreen.storyboard */; };
+		E1CC23421EC8FF7300811912 /* YoMamaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC23411EC8FF7300811912 /* YoMamaAppTests.swift */; };
+		E1CC234D1EC8FF7300811912 /* YoMamaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC234C1EC8FF7300811912 /* YoMamaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CC233E1EC8FF7300811912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CC23211EC8FF7300811912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CC23281EC8FF7300811912;
+			remoteInfo = YoMamaApp;
+		};
+		E1CC23491EC8FF7300811912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CC23211EC8FF7300811912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CC23281EC8FF7300811912;
+			remoteInfo = YoMamaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1CC23291EC8FF7300811912 /* YoMamaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoMamaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC232C1EC8FF7300811912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1CC232E1EC8FF7300811912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1CC23311EC8FF7300811912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CC23331EC8FF7300811912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CC23361EC8FF7300811912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CC23381EC8FF7300811912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CC233D1EC8FF7300811912 /* YoMamaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoMamaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC23411EC8FF7300811912 /* YoMamaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaAppTests.swift; sourceTree = "<group>"; };
+		E1CC23431EC8FF7300811912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CC23481EC8FF7300811912 /* YoMamaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoMamaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC234C1EC8FF7300811912 /* YoMamaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaAppUITests.swift; sourceTree = "<group>"; };
+		E1CC234E1EC8FF7300811912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CC23261EC8FF7300811912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC233A1EC8FF7300811912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC23451EC8FF7300811912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CC23201EC8FF7300811912 = {
+			isa = PBXGroup;
+			children = (
+				E1CC232B1EC8FF7300811912 /* YoMamaApp */,
+				E1CC23401EC8FF7300811912 /* YoMamaAppTests */,
+				E1CC234B1EC8FF7300811912 /* YoMamaAppUITests */,
+				E1CC232A1EC8FF7300811912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CC232A1EC8FF7300811912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC23291EC8FF7300811912 /* YoMamaApp.app */,
+				E1CC233D1EC8FF7300811912 /* YoMamaAppTests.xctest */,
+				E1CC23481EC8FF7300811912 /* YoMamaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CC232B1EC8FF7300811912 /* YoMamaApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC232C1EC8FF7300811912 /* AppDelegate.swift */,
+				E1CC232E1EC8FF7300811912 /* ViewController.swift */,
+				E1CC23301EC8FF7300811912 /* Main.storyboard */,
+				E1CC23331EC8FF7300811912 /* Assets.xcassets */,
+				E1CC23351EC8FF7300811912 /* LaunchScreen.storyboard */,
+				E1CC23381EC8FF7300811912 /* Info.plist */,
+			);
+			path = YoMamaApp;
+			sourceTree = "<group>";
+		};
+		E1CC23401EC8FF7300811912 /* YoMamaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC23411EC8FF7300811912 /* YoMamaAppTests.swift */,
+				E1CC23431EC8FF7300811912 /* Info.plist */,
+			);
+			path = YoMamaAppTests;
+			sourceTree = "<group>";
+		};
+		E1CC234B1EC8FF7300811912 /* YoMamaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CC234C1EC8FF7300811912 /* YoMamaAppUITests.swift */,
+				E1CC234E1EC8FF7300811912 /* Info.plist */,
+			);
+			path = YoMamaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CC23281EC8FF7300811912 /* YoMamaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CC23511EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaApp" */;
+			buildPhases = (
+				E1CC23251EC8FF7300811912 /* Sources */,
+				E1CC23261EC8FF7300811912 /* Frameworks */,
+				E1CC23271EC8FF7300811912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoMamaApp;
+			productName = YoMamaApp;
+			productReference = E1CC23291EC8FF7300811912 /* YoMamaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CC233C1EC8FF7300811912 /* YoMamaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CC23541EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppTests" */;
+			buildPhases = (
+				E1CC23391EC8FF7300811912 /* Sources */,
+				E1CC233A1EC8FF7300811912 /* Frameworks */,
+				E1CC233B1EC8FF7300811912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CC233F1EC8FF7300811912 /* PBXTargetDependency */,
+			);
+			name = YoMamaAppTests;
+			productName = YoMamaAppTests;
+			productReference = E1CC233D1EC8FF7300811912 /* YoMamaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CC23471EC8FF7300811912 /* YoMamaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CC23571EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppUITests" */;
+			buildPhases = (
+				E1CC23441EC8FF7300811912 /* Sources */,
+				E1CC23451EC8FF7300811912 /* Frameworks */,
+				E1CC23461EC8FF7300811912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CC234A1EC8FF7300811912 /* PBXTargetDependency */,
+			);
+			name = YoMamaAppUITests;
+			productName = YoMamaAppUITests;
+			productReference = E1CC23481EC8FF7300811912 /* YoMamaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CC23211EC8FF7300811912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CHUJ;
+				TargetAttributes = {
+					E1CC23281EC8FF7300811912 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2RX7MXJTDQ;
+						ProvisioningStyle = Automatic;
+					};
+					E1CC233C1EC8FF7300811912 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2RX7MXJTDQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1CC23281EC8FF7300811912;
+					};
+					E1CC23471EC8FF7300811912 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2RX7MXJTDQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1CC23281EC8FF7300811912;
+					};
+				};
+			};
+			buildConfigurationList = E1CC23241EC8FF7300811912 /* Build configuration list for PBXProject "YoMamaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CC23201EC8FF7300811912;
+			productRefGroup = E1CC232A1EC8FF7300811912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CC23281EC8FF7300811912 /* YoMamaApp */,
+				E1CC233C1EC8FF7300811912 /* YoMamaAppTests */,
+				E1CC23471EC8FF7300811912 /* YoMamaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CC23271EC8FF7300811912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC23371EC8FF7300811912 /* LaunchScreen.storyboard in Resources */,
+				E1CC23341EC8FF7300811912 /* Assets.xcassets in Resources */,
+				E1CC23321EC8FF7300811912 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC233B1EC8FF7300811912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC23461EC8FF7300811912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CC23251EC8FF7300811912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC232F1EC8FF7300811912 /* ViewController.swift in Sources */,
+				E1CC232D1EC8FF7300811912 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC23391EC8FF7300811912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC23421EC8FF7300811912 /* YoMamaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC23441EC8FF7300811912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CC234D1EC8FF7300811912 /* YoMamaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CC233F1EC8FF7300811912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CC23281EC8FF7300811912 /* YoMamaApp */;
+			targetProxy = E1CC233E1EC8FF7300811912 /* PBXContainerItemProxy */;
+		};
+		E1CC234A1EC8FF7300811912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CC23281EC8FF7300811912 /* YoMamaApp */;
+			targetProxy = E1CC23491EC8FF7300811912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1CC23301EC8FF7300811912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CC23311EC8FF7300811912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CC23351EC8FF7300811912 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CC23361EC8FF7300811912 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CC234F1EC8FF7300811912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CC23501EC8FF7300811912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CC23521EC8FF7300811912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1CC23531EC8FF7300811912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E1CC23551EC8FF7300811912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoMamaApp.app/YoMamaApp";
+			};
+			name = Debug;
+		};
+		E1CC23561EC8FF7300811912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoMamaApp.app/YoMamaApp";
+			};
+			name = Release;
+		};
+		E1CC23581EC8FF7300811912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoMamaApp;
+			};
+			name = Debug;
+		};
+		E1CC23591EC8FF7300811912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
+				INFOPLIST_FILE = YoMamaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoMamaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CC23241EC8FF7300811912 /* Build configuration list for PBXProject "YoMamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC234F1EC8FF7300811912 /* Debug */,
+				E1CC23501EC8FF7300811912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CC23511EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC23521EC8FF7300811912 /* Debug */,
+				E1CC23531EC8FF7300811912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1CC23541EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC23551EC8FF7300811912 /* Debug */,
+				E1CC23561EC8FF7300811912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1CC23571EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC23581EC8FF7300811912 /* Debug */,
+				E1CC23591EC8FF7300811912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CC23211EC8FF7300811912 /* Project object */;
+}
