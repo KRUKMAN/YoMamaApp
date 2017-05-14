@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E1CC232D1EC8FF7300811912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC232C1EC8FF7300811912 /* AppDelegate.swift */; };
-		E1CC232F1EC8FF7300811912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC232E1EC8FF7300811912 /* ViewController.swift */; };
 		E1CC23321EC8FF7300811912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23301EC8FF7300811912 /* Main.storyboard */; };
 		E1CC23341EC8FF7300811912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23331EC8FF7300811912 /* Assets.xcassets */; };
 		E1CC23371EC8FF7300811912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC23351EC8FF7300811912 /* LaunchScreen.storyboard */; };
 		E1CC23421EC8FF7300811912 /* YoMamaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC23411EC8FF7300811912 /* YoMamaAppTests.swift */; };
 		E1CC234D1EC8FF7300811912 /* YoMamaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC234C1EC8FF7300811912 /* YoMamaAppUITests.swift */; };
+		E1CC235B1EC9004500811912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC235A1EC9004500811912 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E1CC23291EC8FF7300811912 /* YoMamaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoMamaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CC232C1EC8FF7300811912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1CC232E1EC8FF7300811912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1CC23311EC8FF7300811912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1CC23331EC8FF7300811912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1CC23361EC8FF7300811912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		E1CC23481EC8FF7300811912 /* YoMamaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoMamaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CC234C1EC8FF7300811912 /* YoMamaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaAppUITests.swift; sourceTree = "<group>"; };
 		E1CC234E1EC8FF7300811912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CC235A1EC9004500811912 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E1CC232C1EC8FF7300811912 /* AppDelegate.swift */,
-				E1CC232E1EC8FF7300811912 /* ViewController.swift */,
+				E1CC235A1EC9004500811912 /* ViewController.swift */,
 				E1CC23301EC8FF7300811912 /* Main.storyboard */,
 				E1CC23331EC8FF7300811912 /* Assets.xcassets */,
 				E1CC23351EC8FF7300811912 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CC232F1EC8FF7300811912 /* ViewController.swift in Sources */,
+				E1CC235B1EC9004500811912 /* ViewController.swift in Sources */,
 				E1CC232D1EC8FF7300811912 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
