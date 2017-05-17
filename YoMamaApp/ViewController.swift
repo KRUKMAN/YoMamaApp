@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var diss = ["is so fat she eats shit", "suck dick", "is a really nice woman"]
+    var diss = ["Yo mama is so fat that her bellybutton gets home 15 minutes before she does!","]
     
     @IBOutlet weak var yoMamaLabel: UILabel!
     @IBOutlet weak var yoMamaButton: UIButton!
