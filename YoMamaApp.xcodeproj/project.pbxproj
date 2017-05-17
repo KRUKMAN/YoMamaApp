@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					E1CC23281EC8FF7300811912 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2RX7MXJTDQ;
 						ProvisioningStyle = Automatic;
 					};
 					E1CC233C1EC8FF7300811912 = {
@@ -416,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
 				INFOPLIST_FILE = YoMamaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaApp;
@@ -429,7 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2RX7MXJTDQ;
 				INFOPLIST_FILE = YoMamaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KK.YoMamaApp;
@@ -515,7 +516,6 @@
 				E1CC23531EC8FF7300811912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		E1CC23541EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,7 +524,6 @@
 				E1CC23561EC8FF7300811912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		E1CC23571EC8FF7300811912 /* Build configuration list for PBXNativeTarget "YoMamaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,7 +532,6 @@
 				E1CC23591EC8FF7300811912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
